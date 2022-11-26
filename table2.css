@@ -1,66 +1,68 @@
 @font-face {
-    font-family: 'Roboto-Regular';
-    src: url(Fonts/Roboto-Regular.eot);
-    src: url(Fonts/Roboto-Regular.ttf) format("truetype"),
+  font-family: "Roboto-Regular";
+  src: url(Fonts/Roboto-Regular.eot);
+  src: url(Fonts/Roboto-Regular.ttf) format("truetype"),
     url(Fonts/Roboto-Regular.woff) format("woff"),
     url(Fonts/Roboto-Regular.woff2) format("woff2");
 }
 
 body {
-    font-family: 'Roboto-Regular';
-    padding-top: 100px;
-    
+  font-family: "Roboto-Regular";
+  padding-top: 100px;
 }
 
 h1 {
-    width: 400px;
-    font-size: 20px;
-    margin: auto;
-    margin-bottom: 20px;
-    font-weight: bold;
+  width: 400px;
+  font-size: 20px;
+  margin: auto;
+  margin-bottom: 20px;
+  font-weight: bold;
 }
 
 table {
-    width: 80%;
-    margin: auto;
+  width: 80%;
+  margin: auto;
 }
 
 th {
-    height: 40px;
-    background-color: #1d96b2;
-    padding: 0 10px;
-    color: white;
-    border: white solid 2px;
-    vertical-align: middle;
-    
+  height: 40px;
+  background-color: #1d96b2;
+  padding: 0 10px;
+  color: white;
+  border: white solid 2px;
+  vertical-align: middle;
 }
 
 td {
-    height: 40px;
-    text-align: center;
-    vertical-align: middle;
-    border-left: solid 2px white;
-    border-bottom: solid 1px #1d96b2;
-    font-size: 15px;
+  height: 40px;
+  text-align: center;
+  vertical-align: middle;
+  border-left: solid 2px white;
+  border-bottom: solid 1px #1d96b2;
+  font-size: 15px;
 }
 
 tr:nth-child(odd) {
-    background-color: #efeeed;
+  background-color: #efeeed;
 }
 
-td:nth-child(1), th:nth-child(1) {
-    border-bottom: none;
-    text-align: left;
-    padding-left: 10px;
-    font-weight: bold;
+td:nth-child(1),
+th:nth-child(1) {
+  border-bottom: none;
+  text-align: left;
+  padding-left: 10px;
+  font-weight: bold;
 }
 
-td:nth-child(4), td:nth-child(5), td:nth-child(6), td:nth-child(7) {
-    text-align: right;
-    padding-right: 10px;
+td:nth-child(4),
+td:nth-child(5),
+td:nth-child(6),
+td:nth-child(7) {
+  text-align: right;
+  padding-right: 10px;
 }
 
 tr:hover {
-    background-color: #dd7711a4;
-    cursor: pointer;
+  background-color: #dd7711a4;
+  cursor: pointer;
 }
