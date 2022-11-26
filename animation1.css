@@ -1,0 +1,32 @@
+.border-div {
+width: 400px;
+height: 400px;
+margin: auto;
+border: solid 1px black;
+margin-top: 100px;
+}
+
+.animation-div {
+  width: 300px;
+  height: 300px;
+  margin: auto;
+  margin-top: 50px;
+  background-color: red;
+  animation: color-change 5s infinite;
+}
+
+@keyframes color-change {
+  0% {
+    background-color: red;
+  }
+  50% {
+    background-color: green;
+    border-radius: 100%;
+    width: 100px;
+    height: 100px;
+    margin-top: 150px;
+  }
+  100% {
+    background-color: red;
+  }
+}
