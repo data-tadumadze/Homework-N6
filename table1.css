@@ -11,16 +11,14 @@ body {
     padding-top: 100px;
 }
 
-h1 {
-    color: white;
-    font-size: 30px;
-    text-align: center;
-    margin-bottom: 10px;
+.table-header {
+  text-align: center;
+  font-size: 25px;
 }
 
 div {
     width: 900px;
-    height: 360px;
+    height: 320px;
     margin: auto;
     padding-top: 20px;
     background-color: #25bbaf;
@@ -34,7 +32,7 @@ table {
     color: white;
 }
 
-th {
+th:not(.table-header) {
     background-color: #66d1c7;
     vertical-align: middle;
 }
@@ -50,9 +48,10 @@ td {
 th, td {
     width: 100px;
     padding-left: 40px;
-    font-size: 15px;
+    font-size: 13px;
 }
 
 tr:hover {
     background-color: #66d1c7;
 }
+
