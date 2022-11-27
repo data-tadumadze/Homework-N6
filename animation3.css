@@ -1,0 +1,85 @@
+@font-face {
+    font-family: "Roboto-Regular";
+    src: url(Fonts/Roboto-Regular.eot);
+    src: url(Fonts/Roboto-Regular.ttf) format("truetype"),
+      url(Fonts/Roboto-Regular.woff) format("woff"),
+      url(Fonts/Roboto-Regular.woff2) format("woff2");
+  }
+  
+
+body {
+    font-family: "Roboto-Regular";
+    padding-top: 100px;
+    padding-left: 200px;
+    background-color: grey;
+  }
+
+  span:nth-child(8) {
+    font-size: 72px;
+    animation: yellow 0.8s infinite;
+    color: white;
+    animation-timing-function: ease;
+  }
+  span:nth-child(7) {
+    font-size: 72px;
+    animation: yellow 0.8s infinite;
+    animation-delay: 0.1s;
+    color: white;
+    animation-timing-function: ease;
+  }
+   
+  span:nth-child(6) {
+    font-size: 72px;
+    animation: yellow 0.8s infinite;
+    animation-delay: 0.2s;
+    color: white;
+    animation-timing-function: ease;
+  }
+  span:nth-child(5) {
+    font-size: 72px;
+    animation: yellow 0.8s infinite;
+    animation-delay: 0.3s;
+    color: white;
+    animation-timing-function: ease;
+  }
+  span:nth-child(4) {
+    font-size: 72px;
+    animation: yellow 0.8s infinite;
+    animation-delay: 0.4s;
+    color: white;
+    animation-timing-function: ease;
+  }
+  span:nth-child(3) {
+    font-size: 72px;
+    animation: yellow 0.8s infinite;
+    animation-delay: 0.5s;
+    color: white;
+    animation-timing-function: ease;
+  }
+  span:nth-child(2) {
+    font-size: 72px;
+    animation: yellow 0.8s infinite;
+    animation-delay: 0.6s;
+    color: white;
+    animation-timing-function: ease;
+  }
+  span:nth-child(1) {
+    font-size: 72px;
+    animation: yellow 0.8s infinite;
+    animation-delay: 0.7s;
+    color: white;
+    animation-timing-function: ease;
+  } 
+  
+
+  @keyframes yellow {
+
+    0% {
+        color: yellow;
+    }
+
+    100% {
+        color: white;
+    }
+
+}
