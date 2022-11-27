@@ -1,0 +1,32 @@
+body {
+  padding-top: 100px;
+  padding-left: 200px;
+}
+
+div {
+  width: 130px;
+  height: 25px;
+  background-color: rgba(248, 1, 1, 0.74);
+  margin-left: 120px;
+  animation: background 0.9s infinite ease alternate;
+  opacity: 1;
+}
+
+h1 {
+  font-size: 50px;
+  margin-top: -50px;
+}
+
+@keyframes background {
+  0% {
+    width: 0px;
+  }
+
+  60% {
+    width: 130px;
+  }
+
+  100% {
+    width: 130px;
+  }
+}
